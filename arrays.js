@@ -9,8 +9,9 @@ function addElementToBeginningOfArray(candyArray, newCandy){
 }
 
 function destructivelyAddElementToBeginningOfArray(candyArray, newCandy){
-  //var newArray;
-  return a.unshift(b);
+  var newArray = candyArray;
+  newArray.unshift(newCandy);
+  return newArray;
 }
 
 function addElementToEndofArray(candyArray, newCandy){
