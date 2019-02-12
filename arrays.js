@@ -35,8 +35,10 @@ function accessElementInArray(candyArray, candyIndex){
   return newArray[candyIndex];
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(){
-
+function destructivelyRemoveElementFromBeginningOfArray(candyArray){
+  var newArray = candyArray;
+  newArray.shift();
+  return newArray;
 }
 
 function removeElementFromBeginningOfArray(){
