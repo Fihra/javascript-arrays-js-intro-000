@@ -50,7 +50,7 @@ function removeElementFromBeginningOfArray(candyArray){
 }
 
 function destructivelyRemoveElementFromEndOfArray(){
-
+  var newArray = candyArray;
 }
 
 function removeElementFromEndOfArray(){
