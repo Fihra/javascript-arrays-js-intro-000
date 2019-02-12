@@ -5,6 +5,7 @@ addElementToEndOfArray(chocolateBars, "crunch");
 destructivelyAddElementToEndOfArray(chocolateBars, "butterfingers");
 accessElementInArray(chocolateBars, 2);
 destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
+removeElementFromBeginningOfArray(chocolateBars);
 removeElementFromEndOfArray(chocolateBars);
 
 
@@ -49,7 +50,7 @@ function removeElementFromBeginningOfArray(candyArray){
   return newArray;
 }
 
-function destructivelyRemoveElementFromEndOfArray(){
+function destructivelyRemoveElementFromEndOfArray(candyArray){
   var newArray = candyArray;
 }
 
