@@ -4,6 +4,7 @@ destructivelyAddElementToBeginningOfArray(chocolateBars, "hersheys");
 addElementToEndOfArray(chocolateBars, "crunch");
 destructivelyAddElementToEndOfArray(chocolateBars, "butterfingers");
 accessElementInArray(chocolateBars, 2);
+destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
 
 
 function addElementToBeginningOfArray(candyArray, newCandy){
